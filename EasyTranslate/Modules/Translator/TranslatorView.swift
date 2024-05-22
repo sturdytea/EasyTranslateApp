@@ -1,6 +1,6 @@
 //
 //
-// MainView.swift
+// TranslatorView.swift
 // EasyTranslate
 //
 // Created by sturdytea on 17.05.2024.
@@ -11,13 +11,27 @@
 
 import UIKit
 
-class MainView: UIView {
+class TranslatorView: UIView {
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .red
+        backgroundColor = .white
+        setupView()
+        setupConstraints()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+}
+
+private extension TranslatorView {
+    func setupView() {
+    }
+    
+    func setupConstraints() {
+        NSLayoutConstraint.activate([
+        ])
     }
 }

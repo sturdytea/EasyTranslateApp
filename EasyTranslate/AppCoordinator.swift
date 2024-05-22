@@ -10,6 +10,7 @@
     
 
 import UIKit
+import Combine
 
 protocol Coordinator {
     func start()
@@ -18,29 +19,36 @@ protocol Coordinator {
 class AppCoordinator: Coordinator {
     
     var window: UIWindow
-    var navigationController: UINavigationController
+    var childCoordinators = [Coordinator]()
+    
+    let hasSeenOnboarding = CurrentValueSubject<Bool, Never>(false)
+    var subscriptions = Set<AnyCancellable>()
     
     init(window: UIWindow) {
         self.window = window
-        self.navigationController = UINavigationController()
     }
     
     func start() {
-        print("Coordinator Start")
-        window.rootViewController = navigationController
-        showMainScreen()
-    }
-    
-    func showMainScreen() {
-        let mainViewController = MainViewController()
-        let mainViewModel = MainViewModel.init()
-        mainViewModel.coordinator = self
-        mainViewController.viewModel = mainViewModel
+// TODO: Need To Establish Onboarding Later
+//        hasSeenOnboarding.sink { [weak self] hasSeen in
+//            if hasSeen {
+//                let mainCoordinator = MainCoordinator()
+//                mainCoordinator.start()
+//                self?.childCoordinators = [mainCoordinator]
+//                self?.window.rootViewController = mainCoordinator.rootViewController
+//            } else if let hasSeenOnboarding = self?.hasSeenOnboarding {
+//                print("Coordinator Start")
+//                let onboardingCoordinator = OnboardingCoordinator(hasSeenOnboarding: hasSeenOnboarding)
+//                onboardingCoordinator.start()
+//                self?.childCoordinators = [onboardingCoordinator]
+//                self?.window.rootViewController = onboardingCoordinator.rootViewController
+//            }
+//        }
+//        .store(in: &subscriptions)
         
-        navigationController.pushViewController(mainViewController, animated: true)
-    }
-    
-    func showSettingsScreen() {
-        
+        let mainCoordinator = MainCoordinator()
+        mainCoordinator.start()
+        self.childCoordinators = [mainCoordinator]
+        self.window.rootViewController = mainCoordinator.rootViewController
     }
 }

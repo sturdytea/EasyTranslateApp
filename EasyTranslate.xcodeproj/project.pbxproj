@@ -10,10 +10,21 @@
 		B8DD0A3A2BF7479200592B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A392BF7479200592B33 /* AppDelegate.swift */; };
 		B8DD0A432BF7479400592B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DD0A422BF7479400592B33 /* Assets.xcassets */; };
 		B8DD0A462BF7479400592B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DD0A442BF7479400592B33 /* LaunchScreen.storyboard */; };
-		B8DD0A4E2BF7484200592B33 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A4D2BF7484200592B33 /* MainViewController.swift */; };
 		B8DD0A502BF748BB00592B33 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A4F2BF748BB00592B33 /* AppCoordinator.swift */; };
-		B8DD0A522BF74D1600592B33 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A512BF74D1600592B33 /* MainViewModel.swift */; };
-		B8DD0A542BF74E6D00592B33 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A532BF74E6D00592B33 /* MainView.swift */; };
+		B8DD0A582BF7715600592B33 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A572BF7715600592B33 /* OnboardingCoordinator.swift */; };
+		B8DD0A5A2BF7717B00592B33 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A592BF7717B00592B33 /* OnboardingView.swift */; };
+		B8DD0A5C2BF7718C00592B33 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A5B2BF7718C00592B33 /* OnboardingViewController.swift */; };
+		B8DD0A612BF7BEAC00592B33 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A602BF7BEAC00592B33 /* MainCoordinator.swift */; };
+		B8DD0A672BF7BF6300592B33 /* TranslatorCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A662BF7BF6300592B33 /* TranslatorCoordinator.swift */; };
+		B8DD0A692BF7BFDE00592B33 /* FlashcardsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A682BF7BFDE00592B33 /* FlashcardsCoordinator.swift */; };
+		B8DD0A6D2BF7C09900592B33 /* TranslatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A6C2BF7C09900592B33 /* TranslatorViewController.swift */; };
+		B8DD0A6F2BF7C0A700592B33 /* FlashcardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A6E2BF7C0A700592B33 /* FlashcardsViewController.swift */; };
+		B8DD0A732BF7C0CA00592B33 /* TranslatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A722BF7C0CA00592B33 /* TranslatorView.swift */; };
+		B8DD0A752BF7C0D900592B33 /* FlashcardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A742BF7C0D900592B33 /* FlashcardsView.swift */; };
+		B8DD0A7B2BFB384800592B33 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A7A2BFB384800592B33 /* ProfileView.swift */; };
+		B8DD0A7D2BFB385900592B33 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A7C2BFB385900592B33 /* ProfileViewController.swift */; };
+		B8DD0A7F2BFB387000592B33 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A7E2BFB387000592B33 /* ProfileCoordinator.swift */; };
+		B8DD0A882BFB6C8800592B33 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD0A872BFB6C8800592B33 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +33,21 @@
 		B8DD0A422BF7479400592B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8DD0A452BF7479400592B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8DD0A472BF7479400592B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8DD0A4D2BF7484200592B33 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B8DD0A4F2BF748BB00592B33 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		B8DD0A512BF74D1600592B33 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		B8DD0A532BF74E6D00592B33 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B8DD0A572BF7715600592B33 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		B8DD0A592BF7717B00592B33 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B8DD0A5B2BF7718C00592B33 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B8DD0A602BF7BEAC00592B33 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		B8DD0A662BF7BF6300592B33 /* TranslatorCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorCoordinator.swift; sourceTree = "<group>"; };
+		B8DD0A682BF7BFDE00592B33 /* FlashcardsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsCoordinator.swift; sourceTree = "<group>"; };
+		B8DD0A6C2BF7C09900592B33 /* TranslatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorViewController.swift; sourceTree = "<group>"; };
+		B8DD0A6E2BF7C0A700592B33 /* FlashcardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsViewController.swift; sourceTree = "<group>"; };
+		B8DD0A722BF7C0CA00592B33 /* TranslatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorView.swift; sourceTree = "<group>"; };
+		B8DD0A742BF7C0D900592B33 /* FlashcardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsView.swift; sourceTree = "<group>"; };
+		B8DD0A7A2BFB384800592B33 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B8DD0A7C2BFB385900592B33 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B8DD0A7E2BFB387000592B33 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		B8DD0A872BFB6C8800592B33 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +80,11 @@
 		B8DD0A382BF7479200592B33 /* EasyTranslate */ = {
 			isa = PBXGroup;
 			children = (
-				B8DD0A562BF76F9200592B33 /* Onboarding */,
-				B8DD0A552BF76F8C00592B33 /* Main */,
+				B8DD0A862BFB6C6B00592B33 /* Common */,
+				B8DD0A782BFB31C700592B33 /* Modules */,
 				B8DD0A392BF7479200592B33 /* AppDelegate.swift */,
 				B8DD0A4F2BF748BB00592B33 /* AppCoordinator.swift */,
+				B8DD0A602BF7BEAC00592B33 /* MainCoordinator.swift */,
 				B8DD0A422BF7479400592B33 /* Assets.xcassets */,
 				B8DD0A442BF7479400592B33 /* LaunchScreen.storyboard */,
 				B8DD0A472BF7479400592B33 /* Info.plist */,
@@ -69,21 +92,63 @@
 			path = EasyTranslate;
 			sourceTree = "<group>";
 		};
-		B8DD0A552BF76F8C00592B33 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				B8DD0A4D2BF7484200592B33 /* MainViewController.swift */,
-				B8DD0A512BF74D1600592B33 /* MainViewModel.swift */,
-				B8DD0A532BF74E6D00592B33 /* MainView.swift */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
 		B8DD0A562BF76F9200592B33 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				B8DD0A592BF7717B00592B33 /* OnboardingView.swift */,
+				B8DD0A5B2BF7718C00592B33 /* OnboardingViewController.swift */,
+				B8DD0A572BF7715600592B33 /* OnboardingCoordinator.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B8DD0A622BF7BEE800592B33 /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD0A722BF7C0CA00592B33 /* TranslatorView.swift */,
+				B8DD0A6C2BF7C09900592B33 /* TranslatorViewController.swift */,
+				B8DD0A662BF7BF6300592B33 /* TranslatorCoordinator.swift */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+		B8DD0A642BF7BF1800592B33 /* Flashcards */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD0A742BF7C0D900592B33 /* FlashcardsView.swift */,
+				B8DD0A6E2BF7C0A700592B33 /* FlashcardsViewController.swift */,
+				B8DD0A682BF7BFDE00592B33 /* FlashcardsCoordinator.swift */,
+			);
+			path = Flashcards;
+			sourceTree = "<group>";
+		};
+		B8DD0A782BFB31C700592B33 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD0A622BF7BEE800592B33 /* Translator */,
+				B8DD0A642BF7BF1800592B33 /* Flashcards */,
+				B8DD0A792BFB31E600592B33 /* Proflie */,
+				B8DD0A562BF76F9200592B33 /* Onboarding */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B8DD0A792BFB31E600592B33 /* Proflie */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD0A7A2BFB384800592B33 /* ProfileView.swift */,
+				B8DD0A7C2BFB385900592B33 /* ProfileViewController.swift */,
+				B8DD0A7E2BFB387000592B33 /* ProfileCoordinator.swift */,
+			);
+			path = Proflie;
+			sourceTree = "<group>";
+		};
+		B8DD0A862BFB6C6B00592B33 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD0A872BFB6C8800592B33 /* PrimaryButton.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,10 +222,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8DD0A502BF748BB00592B33 /* AppCoordinator.swift in Sources */,
-				B8DD0A4E2BF7484200592B33 /* MainViewController.swift in Sources */,
+				B8DD0A7F2BFB387000592B33 /* ProfileCoordinator.swift in Sources */,
+				B8DD0A6F2BF7C0A700592B33 /* FlashcardsViewController.swift in Sources */,
+				B8DD0A7D2BFB385900592B33 /* ProfileViewController.swift in Sources */,
+				B8DD0A582BF7715600592B33 /* OnboardingCoordinator.swift in Sources */,
+				B8DD0A732BF7C0CA00592B33 /* TranslatorView.swift in Sources */,
+				B8DD0A6D2BF7C09900592B33 /* TranslatorViewController.swift in Sources */,
+				B8DD0A882BFB6C8800592B33 /* PrimaryButton.swift in Sources */,
+				B8DD0A752BF7C0D900592B33 /* FlashcardsView.swift in Sources */,
+				B8DD0A692BF7BFDE00592B33 /* FlashcardsCoordinator.swift in Sources */,
+				B8DD0A5C2BF7718C00592B33 /* OnboardingViewController.swift in Sources */,
+				B8DD0A672BF7BF6300592B33 /* TranslatorCoordinator.swift in Sources */,
 				B8DD0A3A2BF7479200592B33 /* AppDelegate.swift in Sources */,
-				B8DD0A542BF74E6D00592B33 /* MainView.swift in Sources */,
-				B8DD0A522BF74D1600592B33 /* MainViewModel.swift in Sources */,
+				B8DD0A7B2BFB384800592B33 /* ProfileView.swift in Sources */,
+				B8DD0A612BF7BEAC00592B33 /* MainCoordinator.swift in Sources */,
+				B8DD0A5A2BF7717B00592B33 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
